@@ -6,3 +6,110 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+h1, p {
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+
+ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.title {
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.title h1 {
+    font-size: 5rem;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.title p {
+    width: 50%;
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.boxContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.boxContainer > div {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.boxContainer h3{
+    color: #00B172;
+}
+
+.boxContainer p{
+    color: #1A1A1A;
+}
+
+.footer {
+    background-color: #00B172;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.info {
+    width: 50%;
+    padding: 0 40px;
+}
+
+.info p{
+    width: 230px;
+}
+
+.info h2 {
+    font-size: 2rem;
+}
+
+.info h3 {
+    font-size: 1.2rem;
+}
+
+

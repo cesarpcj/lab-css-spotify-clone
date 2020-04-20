@@ -13,7 +13,7 @@ White: #FFF
     box-sizing: border-box;
 }
 
-h1, p {
+body, h1, p {
     margin: 0;
 }
 
@@ -21,10 +21,14 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-.header {
+.navbar {
+    background-color: white;
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
+    
 }
 
 
@@ -64,6 +68,11 @@ ul li {
     padding: 30px;
 }
 
+.main h2 {
+    border-bottom: 2px solid #00B172;
+    
+}
+
 .boxContainer{
     width: 100%;
     display: flex;
@@ -88,15 +97,16 @@ ul li {
 }
 
 .footer {
+    position: relative;
     background-color: #00B172;
-    padding: 30px;
+    padding: 60px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     color: white;
 }
 
 .info {
-    width: 50%;
+    margin: 0 auto;
     padding: 0 40px;
 }
 
@@ -106,10 +116,23 @@ ul li {
 
 .info h2 {
     font-size: 2rem;
+    border-bottom: 2px solid white;
 }
 
 .info h3 {
     font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+.media {
+    padding-top: 30px;
+    margin:  0 auto;
+}
+
+.footer-logo{
+    position: absolute;
+    right: 50%;
+    top: 50%;
 }
 
 
